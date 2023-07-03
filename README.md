@@ -1,12 +1,6 @@
 
 <a name="readme-top"></a>
 
-<div align="center">
-
-  <h3><b>Math Magicians</b></h3>
-
-</div>
-
 <!-- TABLE OF CONTENTS -->
 
 # 📗 Table of Contents
@@ -94,7 +88,7 @@ Install this project with:
 
 ### Run
 
-Install this project with:
+Run this project with:
 
 ```sh
   npm start
