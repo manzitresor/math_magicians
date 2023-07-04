@@ -1,12 +1,11 @@
 import React from 'react';
+import CalScreen from './calScreen';
 
 export default function Calculator() {
   return (
     <>
       <div className="main">
-        <div className="display-btn">
-          <span>0</span>
-        </div>
+        <CalScreen />
         <div className="calc-btns">
           <button type="submit" className="calc-btn btn1">AC</button>
           <button type="submit" className="calc-btn btn2">+/-</button>
