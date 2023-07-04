@@ -1,61 +1,60 @@
 
 * {
-    box-sizing: border-box;
-  }
-  
-  .main {
-    width: 40%;
-    margin: 10% 26%;
-    display: grid;
-    grid-template-areas:
-      "display-btn display-btn display-btn display-btn"
-      "calc-btns calc-btns calc-btns sign-btns";
-  }
-  
-  .display-btn {
-    background-color: rgb(179, 175, 175);
-    grid-area: display-btn;
-    padding: 10px;
-    text-align: right;
-    font-size: 25px;
-    font-weight: bold;
-    color: #fff;
-  }
-  
-  .calc-btns {
-    grid-area: calc-btns;
-    display: grid;
-    grid-template-areas:
-      "btn1 btn2 btn3"
-      "btn4 btn5 btn6"
-      "btn7 btn8 btn9"
-      "btn10 btn11 btn12"
-      "btn13 btn13 btn14";
-  }
-  
-  .btn13 {
-    grid-area: btn13;
-  }
-  
-  .btn14 {
-    grid-area: btn14;
-  }
-  
-  .sign-btns {
-    grid-area: sign-btns;
-    display: flex;
-    flex-direction: column;
-  }
-  
-  .calc-btn {
-    background-color: rgb(230, 226, 226);
-    padding: 15px;
-    border: 1px solid rgb(203, 200, 200);
-  }
-  
-  .sign-btn {
-    background-color: rgb(250, 145, 75);
-    padding: 15px;
-    border: 1px solid rgb(203, 200, 200);
-  }
-  
+  box-sizing: border-box;
+}
+
+.main {
+  width: 40%;
+  margin: 10% 26%;
+  display: grid;
+  grid-template-areas:
+    "display-btn display-btn display-btn display-btn"
+    "calc-btns calc-btns calc-btns sign-btns";
+}
+
+.display-btn {
+  background-color: rgb(179, 175, 175);
+  grid-area: display-btn;
+  padding: 10px;
+  text-align: right;
+  font-size: 25px;
+  font-weight: bold;
+  color: #fff;
+}
+
+.calc-btns {
+  grid-area: calc-btns;
+  display: grid;
+  grid-template-areas:
+    "btn1 btn2 btn3"
+    "btn4 btn5 btn6"
+    "btn7 btn8 btn9"
+    "btn10 btn11 btn12"
+    "btn13 btn13 btn14";
+}
+
+.btn13 {
+  grid-area: btn13;
+}
+
+.btn14 {
+  grid-area: btn14;
+}
+
+.sign-btns {
+  grid-area: sign-btns;
+  display: flex;
+  flex-direction: column;
+}
+
+.calc-btn {
+  background-color: rgb(230, 226, 226);
+  padding: 15px;
+  border: 1px solid rgb(203, 200, 200);
+}
+
+.sign-btn {
+  background-color: rgb(250, 145, 75);
+  padding: 15px;
+  border: 1px solid rgb(203, 200, 200);
+}
