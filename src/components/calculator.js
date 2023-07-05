@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
-import CalScreen from './calScreen';
 import Calculate from '../logic/calculate';
+import Buttons from './buttons';
 
 export default function Calculator() {
   const buttons = ['AC', '+/-', '%', '÷', '7', '8', '9', 'x', '4', '5', '6', '-', '1', '2', '3', '+', '0', '.', '='];
@@ -16,11 +16,9 @@ export default function Calculator() {
   return (
     <>
       <div className="main">
-        <CalScreen total={total} operation={operation} next={next} />
-        <div className="calc-btns">
-          { buttons.map((btn) => (
-            <button type="submit" onClick={(e) => { handleClick(e); }} className="btn" key={btn}>{btn}</button>
-          ))}
+        <Buttons buttons={buttons} handleClick={handleClick} />
+        <div className="display-btn">
+          <span>{`${total || ''} ${operation || ''} ${next || ''}`}</span>
         </div>
       </div>
     </>
