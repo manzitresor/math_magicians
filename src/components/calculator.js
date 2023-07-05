@@ -1,36 +1,26 @@
-import React from 'react';
-import CalScreen from './calScreen';
+import React, { useState } from 'react';
+import Calculate from '../logic/calculate';
+import Buttons from './buttons';
 
 export default function Calculator() {
+  const buttons = ['AC', '+/-', '%', '÷', '7', '8', '9', 'x', '4', '5', '6', '-', '1', '2', '3', '+', '0', '.', '='];
+  const [objt, setObjt] = useState({ total: null, next: null, operation: null });
+
+  const handleClick = (e) => {
+    const btn = e.target.textContent;
+    setObjt(Calculate(objt, btn));
+  };
+
+  const { total, next, operation } = objt;
+
   return (
     <>
       <div className="main">
-        <CalScreen />
-        <div className="calc-btns">
-          <button type="submit" className="calc-btn btn1">AC</button>
-          <button type="submit" className="calc-btn btn2">+/-</button>
-          <button type="submit" className="calc-btn btn3">%</button>
-          <button type="submit" className="calc-btn btn4">7</button>
-          <button type="submit" className="calc-btn btn5">8</button>
-          <button type="submit" className="calc-btn btn6">9</button>
-          <button type="submit" className="calc-btn btn7">4</button>
-          <button type="submit" className="calc-btn btn8">5</button>
-          <button type="submit" className="calc-btn btn9">6</button>
-          <button type="submit" className="calc-btn btn10">1</button>
-          <button type="submit" className="calc-btn btn11">2</button>
-          <button type="submit" className="calc-btn btn12">3</button>
-          <button type="submit" className="calc-btn btn13">0</button>
-          <button type="submit" className="calc-btn btn14">.</button>
-        </div>
-        <div className="sign-btns">
-          <button type="submit" className="sign-btn">+</button>
-          <button type="submit" className="sign-btn">x</button>
-          <button type="submit" className="sign-btn">-</button>
-          <button type="submit" className="sign-btn">+</button>
-          <button type="submit" className="sign-btn">=</button>
+        <Buttons buttons={buttons} handleClick={handleClick} />
+        <div className="display-btn">
+          <span>{`${total || ''} ${operation || ''} ${next || ''}`}</span>
         </div>
       </div>
-
     </>
   );
 }

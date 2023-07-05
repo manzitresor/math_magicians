@@ -9,13 +9,13 @@
   display: grid;
   grid-template-areas:
     "display-btn display-btn display-btn display-btn"
-    "calc-btns calc-btns calc-btns sign-btns";
+    "calc-btns calc-btns calc-btns calc-btns ";
 }
 
 .display-btn {
   background-color: rgb(179, 175, 175);
   grid-area: display-btn;
-  padding: 10px;
+  height: 50px;
   text-align: right;
   font-size: 25px;
   font-weight: bold;
@@ -26,35 +26,96 @@
   grid-area: calc-btns;
   display: grid;
   grid-template-areas:
-    "btn1 btn2 btn3"
-    "btn4 btn5 btn6"
-    "btn7 btn8 btn9"
-    "btn10 btn11 btn12"
-    "btn13 btn13 btn14";
+    "btn1 btn2 btn3 btn4"
+    "btn5 btn6 btn7 btn8"
+    "btn9 btn10 btn11 btn12"
+    "btn13 btn14 btn15 btn16"
+    "btn17 btn17 btn18 btn19";
 }
 
-.btn13 {
-  grid-area: btn13;
-}
-
-.btn14 {
-  grid-area: btn14;
-}
-
-.sign-btns {
-  grid-area: sign-btns;
-  display: flex;
-  flex-direction: column;
-}
-
-.calc-btn {
+.btn {
   background-color: rgb(230, 226, 226);
   padding: 15px;
   border: 1px solid rgb(203, 200, 200);
 }
 
-.sign-btn {
+.btn:nth-child(1) {
+  grid-area: btn1;
+}
+
+.btn:nth-child(2) {
+  grid-area: btn2;
+}
+
+.btn:nth-child(3) {
+  grid-area: btn3;
+}
+
+.btn:nth-child(4) {
+  grid-area: btn4;
+}
+
+.btn:nth-child(5) {
+  grid-area: btn5;
+}
+
+.btn:nth-child(6) {
+  grid-area: btn6;
+}
+
+.btn:nth-child(7) {
+  grid-area: btn7;
+}
+
+.btn:nth-child(8) {
+  grid-area: btn8;
+}
+
+.btn:nth-child(9) {
+  grid-area: btn9;
+}
+
+.btn:nth-child(10) {
+  grid-area: btn10;
+}
+
+.btn:nth-child(11) {
+  grid-area: btn11;
+}
+
+.btn:nth-child(12) {
+  grid-area: btn12;
+}
+
+.btn:nth-child(13) {
+  grid-area: btn13;
+}
+
+.btn:nth-child(14) {
+  grid-area: btn14;
+}
+
+.btn:nth-child(15) {
+  grid-area: btn15;
+}
+
+.btn:nth-child(16) {
+  grid-area: btn16;
+}
+
+.btn:nth-child(17) {
+  grid-area: btn17;
+}
+
+.btn:nth-child(18) {
+  grid-area: btn18;
+}
+
+.btn:nth-child(19) {
   background-color: rgb(250, 145, 75);
-  padding: 15px;
-  border: 1px solid rgb(203, 200, 200);
+  grid-area: btn19;
+}
+
+.btn:nth-child(4n + 4) {
+  background-color: rgb(250, 145, 75);
 }
