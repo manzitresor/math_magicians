@@ -30,7 +30,13 @@
     "btn5 btn6 btn7 btn8"
     "btn9 btn10 btn11 btn12"
     "btn13 btn14 btn15 btn16"
-    "btn17 btn17 btn18 btn19"
+    "btn17 btn17 btn18 btn19";
+}
+
+.btn {
+  background-color: rgb(230, 226, 226);
+  padding: 15px;
+  border: 1px solid rgb(203, 200, 200);
 }
 
 .btn:nth-child(1) {
@@ -110,13 +116,6 @@
   grid-area: btn19;
 }
 
-
-.btn {
-  background-color: rgb(230, 226, 226);
-  padding: 15px;
-  border: 1px solid rgb(203, 200, 200);
-}
-
-.btn:nth-child(4n + 4  ) {
+.btn:nth-child(4n + 4) {
   background-color: rgb(250, 145, 75);
 }
