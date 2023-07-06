@@ -7,6 +7,7 @@ function App() {
     <>
       <Calculator />
       <div className="qoutes-container">
+        <p style={{ fontWeight: 'bold' }}>Quote</p>
         <Quotes />
       </div>
     </>
