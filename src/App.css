@@ -119,3 +119,18 @@
 .btn:nth-child(4n + 4) {
   background-color: rgb(250, 145, 75);
 }
+
+.qoutes-container {
+  margin-top: -7%;
+  margin-left: 25%;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   font-size: 20px;
+}
+
+.error {
+  color: red;
+}
+
+.loading {
+  color: green;
+}

@@ -6,7 +6,9 @@ function App() {
   return (
     <>
       <Calculator />
-      <Quotes />
+      <div className="qoutes-container">
+        <Quotes />
+      </div>
     </>
 
   );
