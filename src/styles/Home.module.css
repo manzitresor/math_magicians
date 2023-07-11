@@ -1,15 +1,15 @@
 .welcome {
-    margin: 10% 20px 10% 10px;
-    line-height: 1em;
+  margin: 10% 20px 10% 10px;
+  line-height: 1em;
 }
 
 .welcome h1 {
-    font-size: 40px;
-    text-transform: capitalize;
-    margin-bottom: 50px;
+  font-size: 40px;
+  text-transform: capitalize;
+  margin-bottom: 50px;
 }
 
 .welcome p {
-    font-size: 20px;
-    line-height: 25px;
+  font-size: 20px;
+  line-height: 25px;
 }
