@@ -40,8 +40,9 @@ export default function Quotes() {
   }
   return (
     <>
-      <p>{data}</p>
-
+      <div className="qoutes-container">
+        <p>{data}</p>
+      </div>
     </>
   );
 }
