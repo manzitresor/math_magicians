@@ -3,9 +3,15 @@
   box-sizing: border-box;
 }
 
+.calculator-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
 .main {
   width: 40%;
-  margin: 10% 26%;
+  margin: 10% 15%;
   display: grid;
   grid-template-areas:
     "display-btn display-btn display-btn display-btn"
