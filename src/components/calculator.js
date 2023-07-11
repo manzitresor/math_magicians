@@ -15,10 +15,13 @@ export default function Calculator() {
 
   return (
     <>
-      <div className="main">
-        <Buttons buttons={buttons} handleClick={handleClick} />
-        <div className="display-btn">
-          <span>{`${total || ''} ${operation || ''} ${next || ''}`}</span>
+      <div className="calculator-container">
+        <h1>Let us do Math some math!</h1>
+        <div className="main">
+          <Buttons buttons={buttons} handleClick={handleClick} />
+          <div className="display-btn">
+            <span>{`${total || ''} ${operation || ''} ${next || ''}`}</span>
+          </div>
         </div>
       </div>
     </>
