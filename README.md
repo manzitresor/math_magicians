@@ -42,6 +42,11 @@ Math magicians" is a website for all fans of mathematics. It is a Single Page Ap
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+### Live Demo <a name="live-demo"></a>
+[Live demo Link:]('https://mathmagician-ln19.onrender.com/')
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 <!-- GETTING STARTED -->
 
 ## 💻 Getting Started <a name="getting-started"></a>
