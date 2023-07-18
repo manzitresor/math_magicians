@@ -1,0 +1,61 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Quote render should render data state correctly 1`] = `
+<div
+  class="loading"
+>
+  <p>
+    Loading...
+  </p>
+</div>
+`;
+
+exports[`Quote render should render error state correctly 1`] = `
+<div
+  class="loading"
+>
+  <p>
+    Loading...
+  </p>
+</div>
+`;
+
+exports[`Quote render should render error state correctly 2`] = `
+<div
+  class="loading"
+>
+  <p>
+    Loading...
+  </p>
+</div>
+`;
+
+exports[`Quote render should render loading state correctly 1`] = `
+<div
+  class="loading"
+>
+  <p>
+    Loading...
+  </p>
+</div>
+`;
+
+exports[`Quote render should render loading state correctly 2`] = `
+<div
+  class="loading"
+>
+  <p>
+    Loading...
+  </p>
+</div>
+`;
+
+exports[`Quote render should render quote correctly 1`] = `
+<div
+  class="loading"
+>
+  <p>
+    Loading...
+  </p>
+</div>
+`;

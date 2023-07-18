@@ -1,0 +1,29 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Home component renders correctly 1`] = `
+<div
+  className="mainSection"
+>
+  <div
+    className="magician"
+  >
+    <img
+      alt="magician"
+      className="magicianImage"
+      src="images.png"
+    />
+  </div>
+  <div
+    className="welcome"
+  >
+    <h1>
+      welcome to our home page
+    </h1>
+    <p
+      className="paragraph"
+    >
+      Founded in 2020, Mathmagicians focuses on teaching competition math to middle school students or below. We hope to help students do well in competitions and inspire them to keep learning. We are actively looking to expand our team of tutors to better serve the students and give back to the community.
+    </p>
+  </div>
+</div>
+`;
