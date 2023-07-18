@@ -34,7 +34,9 @@ export default function Quotes() {
   if (isLoading) {
     return (
       <>
-        <p className="loading">Loading...</p>
+        <div className="loading">
+          <p>Loading...</p>
+        </div>
       </>
     );
   }

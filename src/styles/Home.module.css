@@ -1,15 +1,45 @@
+.mainSection {
+  display: flex;
+  justify-content: space-between;
+}
+
 .welcome {
-  margin: 10% 20px 10% 10px;
+  margin: 6% 20px 10% 20px;
   line-height: 1em;
+  width: 50%;
 }
 
 .welcome h1 {
   font-size: 40px;
   text-transform: capitalize;
   margin-bottom: 50px;
+  color: #343f52;
+  line-height: 1rem;
 }
 
-.welcome p {
+.paragraph {
+  background-color: #343f52;
   font-size: 20px;
-  line-height: 25px;
+  color: rgb(212, 210, 210);
+  padding: 5%;
+  border-radius: 10px;
+  line-height: 2.2rem;
+  box-shadow: 9px 10px #e4e5e6;
+}
+
+.magician {
+  width: 50%;
+  height: 20%;
+  margin: 10% auto;
+  display: flex;
+  justify-content: flex-start;
+  padding-left: 8%;
+}
+
+.magicianImage {
+  object-fit: cover;
+  width: 50%;
+  height: 20%;
+  border-radius: 20%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }

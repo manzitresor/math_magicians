@@ -9,10 +9,11 @@ const links = [
 
 const logoStyles = {
   textDecoration: 'none',
-  color: 'black',
+  color: 'rgb(220, 145, 75)',
   fontSize: 25,
   letterSpacing: 5,
   marginLeft: 20,
+  fontWeight: 'bold',
 };
 
 function Navbar() {
@@ -24,7 +25,11 @@ function Navbar() {
           {
         links.map((link) => (
           <li key={link.name}>
-            <Link to={link.path} style={{ textDecoration: 'none', color: 'black' }}>{link.name}</Link>
+            <Link to={link.path} className="nav-item">
+              {link.name}
+              {' '}
+              |
+            </Link>
           </li>
         ))
     }
